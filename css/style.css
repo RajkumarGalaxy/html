@@ -1,0 +1,52 @@
+body  {
+  background-color: #F5F5F5;
+  font-family: 'Archivo', sans-serif;
+  font-size: 16px;
+}
+
+
+h2  {
+  background-color: #A2D2FF;
+  color: black;
+}
+
+h3  {
+  color: orange;
+}
+
+img {
+  width: 150px;
+}
+
+nav {
+  direction: rtl;
+  }
+
+nav
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+  }
+
+nav
+  li {
+    float: right;
+  }
+
+nav
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+nav
+  li a:hover {
+    background-color: #111;
+  }
